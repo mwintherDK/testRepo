@@ -1,5 +1,5 @@
 // Se her for nyttige git commands: https://github.com/joshnh/Git-Commands
-// Lær at anvende ternary, omskriv de tre if/else nedenfor
+// Lær at anvende ternary, omskriv de tre if/else nedenfor..sko fra computer
 
 // 1:
 let names = ["Arne", "Balder", "Calle", "Doriiiith", "Einar", "Franke"];
