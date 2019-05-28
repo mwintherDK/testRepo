@@ -1,3 +1,4 @@
+// Se her for nyttige git commands: https://github.com/joshnh/Git-Commands
 // Lær at anvende ternary, omskriv de tre if/else nedenfor
 
 // 1:
