@@ -9,6 +9,25 @@ if (names.length > 3) {
 } else {
   console.log(`Det er under fire navne i dit array`);
 }
+// Asger
+
+//
+
+// Maren
+
+//
+
+// Birk
+
+//
+
+// Nickolai
+
+//
+
+// Nicklas
+
+//
 
 // 2:
 let jamie = {
@@ -20,6 +39,26 @@ let jamie = {
   },
   alive: false
 };
+
+// Asger
+
+//
+
+// Maren
+
+//
+
+// Birk
+
+//
+
+// Nickolai
+
+//
+
+// Nicklas
+
+//
 
 if (jamie.alive) {
   console.log("Hes alive! Hurrah");
@@ -36,3 +75,23 @@ if (clientWindowWidth > 1200) {
 } else {
   container.classList.remove("hugeScreen");
 }
+
+// Asger
+
+//
+
+// Maren
+
+//
+
+// Birk
+
+//
+
+// Nickolai
+
+//
+
+// Nicklas
+
+//
