@@ -10,7 +10,7 @@ if (names.length > 3) {
     console.log(`Det er under fire navne i dit array`);
 }
 // Asger
-
+console.log(names.length > 3 ? `Der er ${names.length} navne i dit array!` : `Det er under fire navne i dit array`);
 //
 
 // Maren
