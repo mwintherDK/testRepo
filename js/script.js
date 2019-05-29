@@ -26,7 +26,9 @@ if (names.length > 3) {
 //
 
 // Nicklas
-
+names.length > 3
+  ? console.log(`Der er ${names.length} navne i dit array!`)
+  : console.log(`Det er under fire navne i dit array`);
 //
 
 // 2:
@@ -57,7 +59,9 @@ let jamie = {
 //
 
 // Nicklas
-
+jamie.alive
+  ? console.log("Hes alive! Hurrah")
+  : console.log("Awww...Jamie is dead");
 //
 
 if (jamie.alive) {
@@ -93,5 +97,7 @@ if (clientWindowWidth > 1200) {
 //
 
 // Nicklas
-
+clientWindowWidth > 1200
+  ? container.classList.add("hugeScreen")
+  : container.classList.remove("hugeScreen");
 //
