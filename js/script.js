@@ -5,9 +5,9 @@
 let names = ["Arne", "Balder", "Calle", "Doriiiith", "Einar", "Franke"];
 
 if (names.length > 3) {
-  console.log(`Der er ${names.length} navne i dit array!`);
+    console.log(`Der er ${names.length} navne i dit array!`);
 } else {
-  console.log(`Det er under fire navne i dit array`);
+    console.log(`Det er under fire navne i dit array`);
 }
 // Asger
 
@@ -22,7 +22,8 @@ if (names.length > 3) {
 //
 
 // Nickolai
-
+console.log(
+    names.length > 3 ? `Der er ${names.length} navne i dit array` : `Det er under fire navne i dit array`);
 //
 
 // Nicklas
@@ -31,13 +32,13 @@ if (names.length > 3) {
 
 // 2:
 let jamie = {
-  nick: "Kingslayer",
-  name: "Jamie Lannister",
-  girlfriend: {
-    nick: "Protector of the Realm",
-    name: "Cersei Lannister"
-  },
-  alive: false
+    nick: "Kingslayer",
+    name: "Jamie Lannister",
+    girlfriend: {
+        nick: "Protector of the Realm",
+        name: "Cersei Lannister"
+    },
+    alive: false
 };
 
 // Asger
@@ -53,7 +54,7 @@ let jamie = {
 //
 
 // Nickolai
-
+console.log(jamie.alive ? "Hes alive! Hurrah" : "Awww...Jamie os dead");
 //
 
 // Nicklas
@@ -61,9 +62,9 @@ let jamie = {
 //
 
 if (jamie.alive) {
-  console.log("Hes alive! Hurrah");
+    console.log("Hes alive! Hurrah");
 } else {
-  console.log("Awww...Jamie is dead");
+    console.log("Awww...Jamie is dead");
 }
 
 // 3:
@@ -71,9 +72,9 @@ let clientWindowWidth = window.innerWidth;
 let container = document.querySelector(".container");
 
 if (clientWindowWidth > 1200) {
-  container.classList.add("hugeScreen");
+    container.classList.add("hugeScreen");
 } else {
-  container.classList.remove("hugeScreen");
+    container.classList.remove("hugeScreen");
 }
 
 // Asger
@@ -89,7 +90,7 @@ if (clientWindowWidth > 1200) {
 //
 
 // Nickolai
-
+clientWindowWidth > 1200 ? container.classList.add("hugeScreen") : container.classList.remove("hugeScreen");
 //
 
 // Nicklas
