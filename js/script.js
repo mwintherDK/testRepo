@@ -18,7 +18,8 @@ if (names.length > 3) {
 //
 
 // Birk
-
+let nameStringBirk = (names.length > 3) ? `Der er ${names.length} navne i dit array!` : `Det er under fire navne i dit array`;
+console.log(nameStringBirk);
 //
 
 // Nickolai
@@ -49,7 +50,8 @@ let jamie = {
 //
 
 // Birk
-
+let jamieAliveBirk = (jamie.alive) ? "Hes alive! Hurrah" : "Awww...Jamie is dead";
+console.log(jamieAliveBirk);
 //
 
 // Nickolai
@@ -85,7 +87,7 @@ if (clientWindowWidth > 1200) {
 //
 
 // Birk
-
+clientWindowWidth > 1200 ? container.classList.add("hugeScreen") : container.classList.remove("hugeScreen");
 //
 
 // Nickolai
