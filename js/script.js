@@ -14,7 +14,7 @@ if (names.length > 3) {
 //
 
 // Maren
-
+console.log((names.length > 3) ? `Der er ${names.length} navne i dit array!` : 'Det er under fire navne i dit array');
 //
 
 // Birk
